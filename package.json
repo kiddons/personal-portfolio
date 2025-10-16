@@ -1,0 +1,25 @@
+{
+  "name": "akid-portfolio",
+  "version": "1.0.0",
+  "description": "A modern, responsive personal portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start": "node live-server.js",
+    "dev": "node live-server.js",
+    "serve": "python3 -m http.server 8000",
+    "deploy": "./deploy.sh"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "responsive",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Akid Danial",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
