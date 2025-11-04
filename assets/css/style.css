@@ -1309,6 +1309,80 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+/* Contact section polish */
+.contact-text p {
+  color: var(--light-gray);
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.form-input,
+.form select {
+  transition: all 0.3s ease;
+}
+
+.form-input:focus,
+select.form-input:focus {
+  border-color: var(--orange-yellow-crayola);
+  box-shadow: 0 0 10px hsla(45, 100%, 70%, 0.25);
+}
+
+select.form-input {
+  color: var(--white-2);
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 14px;
+  padding: 13px 20px;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  transition: all 0.3s ease;
+}
+
+/* Hover and focus effects */
+select.form-input:hover {
+  cursor: pointer;
+}
+
+select.form-input:focus {
+  border-color: var(--orange-yellow-crayola);
+  box-shadow: 0 0 12px hsla(45, 100%, 70%, 0.3);
+}
+
+/* Dropdown option styling */
+select.form-input option {
+  background-color: var(--eerie-black-2);
+  color: var(--white-2);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  padding: 10px;
+}
+
+/* Status message after form submission */
+.form-status {
+  margin-top: 15px;
+  font-size: var(--fs-7);
+  color: var(--orange-yellow-crayola);
+  text-align: center;
+}
+
+/* Closing line at bottom of contact section */
+.closing-line {
+  text-align: center;
+  margin-top: 40px;
+  font-size: var(--fs-6);
+  font-weight: var(--fw-400);
+  color: var(--light-gray);
+}
+
+/* Highlighted gradient text */
+.highlight {
+  background: var(--text-gradient-yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+
 
 
 
